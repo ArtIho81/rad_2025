@@ -1,0 +1,29 @@
+:root {
+}
+
+html,
+body {
+  height: 100%;
+}
+
+main {
+  flex: 1 1 auto;
+}
+
+.active {
+  color: red;
+}
+
+.employee-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: space-around;
+}
+
+.employee-card {
+  text-align: center;
+  min-width: 200px;
+  border: 2px blueviolet solid;
+  border-radius: 20px;
+}
