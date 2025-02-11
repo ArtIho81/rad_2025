@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useLanguage } from "../hooks/useLanguage";
 import { pages } from "../components/header/NavBar";
 import { EmployeeCard } from "../components/EmployeeCard";
 
 export const AboutPage = () => {
   const { lang } = useLanguage();
-  const [employee, setEmployee] = useState([]);
+  const [employee, setEmployee] = useState<{[key:string]: string}[]>([]);
 
   useEffect(() => {
     fetch("https://swapi.dev/api/people")

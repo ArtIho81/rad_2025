@@ -1,4 +1,3 @@
-import React from "react";
 import { pages } from "../components/header/NavBar";
 import { useLanguage } from "../hooks/useLanguage";
 

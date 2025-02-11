@@ -19,7 +19,7 @@ function App() {
           <Route path="products" element={<ProductsPage />} />
           <Route path="products/:product" element={<ProductPage />} />
           <Route path="contacts" element={<ContactsPage />} />
-          <Route path="*" element={<NotFoundPage />}/>
+          <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>
     </LanguageProvider>

@@ -1,4 +1,3 @@
-import React from "react";
 import { useLanguage } from "../hooks/useLanguage";
 import { pages } from "../components/header/NavBar";
 import { Link } from "react-router-dom";
